@@ -5,7 +5,7 @@
 
 import java.util.LinkedList;
 
-public class Ex_02Queue {
+public class MyQueue {
     private LinkedList<Integer> linkedList = new LinkedList<>();
     // enqueue() - помещает элемент в конец очереди
     void enqueue(int item) {
@@ -26,7 +26,7 @@ public class Ex_02Queue {
         }
         return null;
     }
-
+    // метод для вывода в консоль
     String lListToString() {
         return linkedList.toString();
     }
